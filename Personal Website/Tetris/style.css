@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    position: 100%;
+  }
+  
+  .head {
+    background-color: rgb(191, 192, 191);
+  }
+
+
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(128, 0, 255);
+    position: relative;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(128, 0, 255);
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+  body {
+    margin: auto;
+    overflow: auto;
+    width: 60%;
+    padding: 10px;
+    background-image: url("img/tetris1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  h3 {
+    color: azure;
+  }
